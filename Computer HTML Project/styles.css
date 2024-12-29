@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+	/*background set*/
+    background: url('https://images.aiscribbles.com/19d53bcd488143b199defcd6168a3d79.jpg?v=0b0f47');
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+h1 {
+    font-size: 4em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    /* transistion for hover affect */
+    transition: font-size 0.3s ease-out;
+}
+
+/* Hover affect */
+nav ul li a:hover {
+    font-size: 1.2em;
+    transition: font-size 0.3s ease;
+}
+
+/* Main Content */
+.title {
+    text-align: center;
+    font-size: 3em;
+}
+img {
+    border-radius: 15px;
+}
+main {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    padding: 0 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
